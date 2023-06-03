@@ -1,0 +1,35 @@
+{
+	"extensionName": {
+		"message": "YouTube Filter"
+	},
+	"extensionDescription": {
+		"message": "Filters various configurable parts on YouTube pages."
+	},
+	"shortsFiltering":{
+		"message": "Shorts filtering"
+	},
+	"popupOptions":{
+		"message": "Options"
+	},
+	"popupEnabled":{
+		"message": "Enabled"
+	},
+	"popupDisabled":{
+		"message": "Disabled"
+	},
+	"groupLegendWhitelist": {
+		"message": "Whitelist channels"
+	},
+	"channelNameLabel": {
+		"message": "Enter a channel name"
+	},
+	"addButton": {
+		"message": "Add"
+	},
+	"removeButton": {
+		"message": "Remove"
+	},
+	"version": {
+		"message": "Version"
+	}
+}

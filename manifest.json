@@ -1,0 +1,44 @@
+{
+  "action": {
+    "default_icon": "images/youtube-filter.svg",
+    "default_title": "YouTube Filter",
+    "default_popup": "pages/popup.html"
+  },
+  "background": {
+    "scripts": ["scripts/background.js"]
+  },
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "youtube-filter@dev.lux",
+      "strict_min_version": "109.0"
+    }
+  },
+  "content_scripts": [
+    {
+      "matches": [
+        "*://*.youtube.com/*"
+      ],
+      "js": [
+        "scripts/main.js"
+      ],
+      "run_at": "document_idle"
+    }
+  ],
+  "default_locale": "en",
+  "description": "__MSG_extensionDescription__",
+  "developer": {
+    "name": "Lux",
+    "url": "https://github.com/s-lux"
+  },
+  "icons": {
+    "48": "images/youtube-filter.svg",
+    "96": "images/youtube-filter.svg",
+    "256": "images/youtube-filter.svg"
+  },
+  "manifest_version": 3,
+  "name": "__MSG_extensionName__",
+  "permissions": [
+    "storage"
+  ],
+  "version": "0.1.0"
+}

@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<link href="../styles/popup.css" rel="stylesheet">
+		<script src="../scripts/popup.js"></script>
+	</head>
+	<body>
+		<table>
+			<tbody>
+				<tr>
+					<td class="title-image">
+						<img id="titleIcon" src="../images/youtube-filter.svg">
+					</td>
+					<td class="icon-spacer"></td>
+					<td class="title-text">
+						<span id="titleText">{title text}</span>
+					</td>
+				</tr>
+				<tr>
+					<td colspan="3">
+						<hr class="separator" />
+					</td>
+				</tr>
+				<tr class="options-row">
+					<td colspan="3">
+						<span id="shortsFiltering">{shorts filtering}</span>
+					</td>
+				</tr>
+				<tr class="options-row">
+					<td>
+						<label for="enableAll" class="styled-input styled-checkbox">
+							<input id="enableAll" type="checkbox" class="hidden">
+							<span class="checkbox">
+								<span class="check"></span>
+							</span>
+						</label>
+					</td>
+					<td class="icon-spacer"></td>
+					<td>
+						<label for="enableAll" class="styled-input">
+							<span id="enableAllText" class="input-label"></span>
+						</label>
+					</td>
+				</tr>
+				<tr>
+					<td colspan="3">
+						<hr class="separator" />
+					</td>
+				</tr>
+				<tr class="options-row">
+					<td>
+						<label for="optionsButton" class="styled-input styled-button">
+							<input id="optionsButton" type="button" class="hidden">
+							<object type="image/svg+xml" data="../images/gear.svg" class="image"></object>
+							<div class="clickable"></div>
+						</label>
+					</td>
+					<td class="icon-spacer"></td>
+					<td>
+						<label for="optionsButton" class="styled-input">
+							<span id="optionsButtonLabel" class="input-label">{options}</span>
+						</label>
+					</td>
+				</tr>
+			</tbody>
+		</table>
+	</body>
+</html>
