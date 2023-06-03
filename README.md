@@ -6,7 +6,7 @@ Firefox add-on that filters various configurable parts on YouTube pages.
 
 ### Firefox
 
-Install from the [Firefox Add-ons](https://addons.mozilla.org/en-US/firefox/addon/youtube-filter/) webpage, or install the Add-on temporarily:<br>
+Install from the [Firefox Add-ons](https://addons.mozilla.org/en-US/firefox/addon/youtube-filter-lux/) webpage, or install the Add-on temporarily:<br>
 1. Download the project<br>
 2. In Firefox, navigate to about:debugging#/runtime/this-firefox<br>
 3. Click on <b>Load Temporary Add-on...</b><br>
